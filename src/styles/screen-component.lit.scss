@@ -1,0 +1,35 @@
+.ScreenComponent {
+    align-items: flex-end;
+    background: #333;
+    color: white;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    height: 50px;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.ScreenComponent-floatingpoint {
+    background: #fff;
+    height: 5px;
+    margin-right: 5px;
+    width: 5px;
+}
+
+.ScreenComponent-minus {
+    background: #fff;
+    height: 5px;
+    margin-bottom: 22px;
+    margin-right: 5px;
+    width: 10px;
+}
+
+digit-component {
+    flex-basis: calc(10% - 5px);
+    height: 100%;
+    margin-right: 5px;
+}
+
+digit-component:last-child {
+    margin-right: 0;
+}
